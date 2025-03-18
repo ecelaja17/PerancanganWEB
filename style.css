@@ -1,0 +1,94 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    font-size: 24px;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: #5A67D8;
+    color: white;
+    font-size: 48px;
+}
+
+.features, .download {
+    padding: 50px 20px;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    height: 550px;
+}
+
+.feature-item h3, p {
+    font-size: 24px;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-profil h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container-profil p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container-footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.container-footer img {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.container-footer img:hover {
+    transform: scale(1.2);
+}
